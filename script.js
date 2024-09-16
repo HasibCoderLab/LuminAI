@@ -8,7 +8,7 @@ function  speak(text){
     text_speak.pitch = 1
     text_speak.volume = 1
     // {Maybe  Change
-    text_speak.lang ="hi-GB"
+    text_speak.lang ="en-GB"
       // Maybe  Change }
 
     window.speechSynthesis.speak(text_speak)
@@ -65,7 +65,7 @@ function takeCommand(message){
     } 
 
     else if(message. includes ("who are you") ){
-        speak( " i am Virtual Assistant .created by , Hasib Sir" )
+        speak( " i am Virtual Assistant .created by , Hasib  Hasan Sir" )
     }
 
 
