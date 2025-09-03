@@ -71,14 +71,14 @@ function takeCommand(message){
 
     else if(message. includes ("open youtube " )){
         speak( "opening Youtube ..." )
-        window.open("https://youtube.com" , "_blank")
+        window.location("https://www.youtube.com/", '_blank');
       
     }
 
     
     else if(message. includes ("open google " )){
         speak( "opening google ..." )
-        window.open("https://google.com/" , "_blank")
+        window.location("https://google.com/" , "_blank")
       
     }
     else if(message. includes ("open facebook " )){
@@ -111,7 +111,7 @@ function takeCommand(message){
     else{
       let finalText =  "this is what i found on internet regarding "+message.replace("shipra" , "") || message("shifra" , "")
 speak(finalText)
-        window.open(`https://www.gooogle.com/search?q=${message .replace("Shifra", "" )}`,"_blank")
+        window.open(`https://www.google.com/search?q=${message .replace("Shifra", "" )}`,"_blank")
     }
 }
 
