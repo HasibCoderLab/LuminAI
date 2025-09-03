@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virtual Assistant</title>
-    <link rel="shortcut icon" href="Media/Icon/favicon.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>LuminAI — Virtual Assistant</title>
+  <meta name="description" content="LuminAI is a sleek voice-enabled virtual assistant with a glowing, futuristic UI." />
+
+  <!-- Canonical & Favicon -->
+  <link rel="canonical" href="https://your-domain.com/luminai" />
+  <link rel="icon" type="image/png" href="Media/Icon/favicon.png" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="LuminAI — Virtual Assistant" />
+  <meta property="og:description" content="Talk to LuminAI: your glowing, futuristic voice assistant." />
+  <meta property="og:image" content="https://your-domain.com/Media/Images/og-cover.png" />
+  <meta property="og:url" content="https://your-domain.com/luminai" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <img src="Media/Images/Logo.png" alt="logo" id="logo">
+<body data-assistant-name="LuminAI">
+  <img src="Media/Images//Picture1.jpeg" alt="LuminAI logo" id="logo" />
 
-    <h1> I'm <span id="name" > Shifra </span> , your  <span id="va">Virtual Assistant</span>  </h1>
+  <h1>
+    I'm <span id="name">LuminAI</span>, your <span id="va">Virtual Assistant</span>
+  </h1>
 
-    <img src="Media/Images/voice.gif" alt="voice" id="voice">
-    <button id="btn"> <img src="Media/mic.svg" alt="mic"> <span id="content">   Click  here For  talk to  me</span>    </button>
+  <img src="Media/Images/voice.gif" alt="Voice activity animation" id="voice" aria-hidden="true" />
+
+  <button id="btn" aria-label="Talk to LuminAI">
+    <img src="Media/mic.svg" alt="" aria-hidden="true" />
+    <span id="content">Click here to talk to me</span>
+  </button>
 
     <script src="script.js"></script>
 </body>
+
 </html>
